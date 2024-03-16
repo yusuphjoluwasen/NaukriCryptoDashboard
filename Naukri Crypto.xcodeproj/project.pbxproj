@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09680D982BA5B4ED00E9725D /* Naukri_CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680D972BA5B4ED00E9725D /* Naukri_CryptoApp.swift */; };
+		09680D9A2BA5B4ED00E9725D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680D992BA5B4ED00E9725D /* ContentView.swift */; };
+		09680D9C2BA5B4EE00E9725D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09680D9B2BA5B4EE00E9725D /* Assets.xcassets */; };
+		09680D9F2BA5B4EE00E9725D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09680D9E2BA5B4EE00E9725D /* Preview Assets.xcassets */; };
+		09680DA92BA5B4EE00E9725D /* Naukri_CryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DA82BA5B4EE00E9725D /* Naukri_CryptoTests.swift */; };
+		09680DB32BA5B4EE00E9725D /* Naukri_CryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DB22BA5B4EE00E9725D /* Naukri_CryptoUITests.swift */; };
+		09680DB52BA5B4EE00E9725D /* Naukri_CryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DB42BA5B4EE00E9725D /* Naukri_CryptoUITestsLaunchTests.swift */; };
+		09680DC52BA5B68F00E9725D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DC42BA5B68F00E9725D /* Network.swift */; };
+		09680DC72BA5B71500E9725D /* NetworkingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DC62BA5B71500E9725D /* NetworkingUtil.swift */; };
+		09680DC92BA5B7E600E9725D /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DC82BA5B7E600E9725D /* RequestFactory.swift */; };
+		09680DCC2BA5BA3E00E9725D /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DCB2BA5BA3E00E9725D /* HomeRepository.swift */; };
+		09680DCE2BA5BA4A00E9725D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DCD2BA5BA4A00E9725D /* HomeViewModel.swift */; };
+		09680DD22BA5BAAB00E9725D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DD12BA5BAAB00E9725D /* HomeModel.swift */; };
+		09680DD72BA5BBD500E9725D /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DD62BA5BBD500E9725D /* Api.swift */; };
+		09680DD92BA5BE5400E9725D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09680DD82BA5BE5400E9725D /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09680DA52BA5B4EE00E9725D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09680D8C2BA5B4ED00E9725D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09680D932BA5B4ED00E9725D;
+			remoteInfo = "Naukri Crypto";
+		};
+		09680DAF2BA5B4EE00E9725D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09680D8C2BA5B4ED00E9725D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09680D932BA5B4ED00E9725D;
+			remoteInfo = "Naukri Crypto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09680D942BA5B4ED00E9725D /* Naukri Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Naukri Crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09680D972BA5B4ED00E9725D /* Naukri_CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naukri_CryptoApp.swift; sourceTree = "<group>"; };
+		09680D992BA5B4ED00E9725D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09680D9B2BA5B4EE00E9725D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09680D9E2BA5B4EE00E9725D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09680DA42BA5B4EE00E9725D /* Naukri CryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Naukri CryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09680DA82BA5B4EE00E9725D /* Naukri_CryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naukri_CryptoTests.swift; sourceTree = "<group>"; };
+		09680DAE2BA5B4EE00E9725D /* Naukri CryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Naukri CryptoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09680DB22BA5B4EE00E9725D /* Naukri_CryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naukri_CryptoUITests.swift; sourceTree = "<group>"; };
+		09680DB42BA5B4EE00E9725D /* Naukri_CryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Naukri_CryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09680DC42BA5B68F00E9725D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		09680DC62BA5B71500E9725D /* NetworkingUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingUtil.swift; sourceTree = "<group>"; };
+		09680DC82BA5B7E600E9725D /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		09680DCB2BA5BA3E00E9725D /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		09680DCD2BA5BA4A00E9725D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		09680DD12BA5BAAB00E9725D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		09680DD62BA5BBD500E9725D /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		09680DD82BA5BE5400E9725D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09680D912BA5B4ED00E9725D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DA12BA5B4EE00E9725D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DAB2BA5B4EE00E9725D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09680D8B2BA5B4ED00E9725D = {
+			isa = PBXGroup;
+			children = (
+				09680D962BA5B4ED00E9725D /* Naukri Crypto */,
+				09680DA72BA5B4EE00E9725D /* Naukri CryptoTests */,
+				09680DB12BA5B4EE00E9725D /* Naukri CryptoUITests */,
+				09680D952BA5B4ED00E9725D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09680D952BA5B4ED00E9725D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09680D942BA5B4ED00E9725D /* Naukri Crypto.app */,
+				09680DA42BA5B4EE00E9725D /* Naukri CryptoTests.xctest */,
+				09680DAE2BA5B4EE00E9725D /* Naukri CryptoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09680D962BA5B4ED00E9725D /* Naukri Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				09680DD52BA5BBB200E9725D /* shared */,
+				09680DC32BA5B5EE00E9725D /* coremodules */,
+				09680DC12BA5B56D00E9725D /* infrastructure */,
+				09680D972BA5B4ED00E9725D /* Naukri_CryptoApp.swift */,
+				09680D992BA5B4ED00E9725D /* ContentView.swift */,
+				09680D9B2BA5B4EE00E9725D /* Assets.xcassets */,
+				09680D9D2BA5B4EE00E9725D /* Preview Content */,
+			);
+			path = "Naukri Crypto";
+			sourceTree = "<group>";
+		};
+		09680D9D2BA5B4EE00E9725D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09680D9E2BA5B4EE00E9725D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09680DA72BA5B4EE00E9725D /* Naukri CryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				09680DA82BA5B4EE00E9725D /* Naukri_CryptoTests.swift */,
+			);
+			path = "Naukri CryptoTests";
+			sourceTree = "<group>";
+		};
+		09680DB12BA5B4EE00E9725D /* Naukri CryptoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09680DB22BA5B4EE00E9725D /* Naukri_CryptoUITests.swift */,
+				09680DB42BA5B4EE00E9725D /* Naukri_CryptoUITestsLaunchTests.swift */,
+			);
+			path = "Naukri CryptoUITests";
+			sourceTree = "<group>";
+		};
+		09680DC12BA5B56D00E9725D /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				09680DC22BA5B5CD00E9725D /* network */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		09680DC22BA5B5CD00E9725D /* network */ = {
+			isa = PBXGroup;
+			children = (
+				09680DC42BA5B68F00E9725D /* Network.swift */,
+				09680DC62BA5B71500E9725D /* NetworkingUtil.swift */,
+				09680DC82BA5B7E600E9725D /* RequestFactory.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		09680DC32BA5B5EE00E9725D /* coremodules */ = {
+			isa = PBXGroup;
+			children = (
+				09680DCA2BA5BA2A00E9725D /* home */,
+			);
+			path = coremodules;
+			sourceTree = "<group>";
+		};
+		09680DCA2BA5BA2A00E9725D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				09680DCB2BA5BA3E00E9725D /* HomeRepository.swift */,
+				09680DCD2BA5BA4A00E9725D /* HomeViewModel.swift */,
+				09680DD12BA5BAAB00E9725D /* HomeModel.swift */,
+				09680DD82BA5BE5400E9725D /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		09680DD52BA5BBB200E9725D /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				09680DD62BA5BBD500E9725D /* Api.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09680D932BA5B4ED00E9725D /* Naukri Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09680DB82BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri Crypto" */;
+			buildPhases = (
+				09680D902BA5B4ED00E9725D /* Sources */,
+				09680D912BA5B4ED00E9725D /* Frameworks */,
+				09680D922BA5B4ED00E9725D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Naukri Crypto";
+			productName = "Naukri Crypto";
+			productReference = 09680D942BA5B4ED00E9725D /* Naukri Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09680DA32BA5B4EE00E9725D /* Naukri CryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09680DBB2BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri CryptoTests" */;
+			buildPhases = (
+				09680DA02BA5B4EE00E9725D /* Sources */,
+				09680DA12BA5B4EE00E9725D /* Frameworks */,
+				09680DA22BA5B4EE00E9725D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09680DA62BA5B4EE00E9725D /* PBXTargetDependency */,
+			);
+			name = "Naukri CryptoTests";
+			productName = "Naukri CryptoTests";
+			productReference = 09680DA42BA5B4EE00E9725D /* Naukri CryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09680DAD2BA5B4EE00E9725D /* Naukri CryptoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09680DBE2BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri CryptoUITests" */;
+			buildPhases = (
+				09680DAA2BA5B4EE00E9725D /* Sources */,
+				09680DAB2BA5B4EE00E9725D /* Frameworks */,
+				09680DAC2BA5B4EE00E9725D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09680DB02BA5B4EE00E9725D /* PBXTargetDependency */,
+			);
+			name = "Naukri CryptoUITests";
+			productName = "Naukri CryptoUITests";
+			productReference = 09680DAE2BA5B4EE00E9725D /* Naukri CryptoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09680D8C2BA5B4ED00E9725D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					09680D932BA5B4ED00E9725D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					09680DA32BA5B4EE00E9725D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 09680D932BA5B4ED00E9725D;
+					};
+					09680DAD2BA5B4EE00E9725D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 09680D932BA5B4ED00E9725D;
+					};
+				};
+			};
+			buildConfigurationList = 09680D8F2BA5B4ED00E9725D /* Build configuration list for PBXProject "Naukri Crypto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09680D8B2BA5B4ED00E9725D;
+			productRefGroup = 09680D952BA5B4ED00E9725D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09680D932BA5B4ED00E9725D /* Naukri Crypto */,
+				09680DA32BA5B4EE00E9725D /* Naukri CryptoTests */,
+				09680DAD2BA5B4EE00E9725D /* Naukri CryptoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09680D922BA5B4ED00E9725D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09680D9F2BA5B4EE00E9725D /* Preview Assets.xcassets in Resources */,
+				09680D9C2BA5B4EE00E9725D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DA22BA5B4EE00E9725D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DAC2BA5B4EE00E9725D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09680D902BA5B4ED00E9725D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09680D9A2BA5B4ED00E9725D /* ContentView.swift in Sources */,
+				09680DC92BA5B7E600E9725D /* RequestFactory.swift in Sources */,
+				09680DD22BA5BAAB00E9725D /* HomeModel.swift in Sources */,
+				09680DD92BA5BE5400E9725D /* HomeView.swift in Sources */,
+				09680DCE2BA5BA4A00E9725D /* HomeViewModel.swift in Sources */,
+				09680DC72BA5B71500E9725D /* NetworkingUtil.swift in Sources */,
+				09680D982BA5B4ED00E9725D /* Naukri_CryptoApp.swift in Sources */,
+				09680DCC2BA5BA3E00E9725D /* HomeRepository.swift in Sources */,
+				09680DD72BA5BBD500E9725D /* Api.swift in Sources */,
+				09680DC52BA5B68F00E9725D /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DA02BA5B4EE00E9725D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09680DA92BA5B4EE00E9725D /* Naukri_CryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09680DAA2BA5B4EE00E9725D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09680DB32BA5B4EE00E9725D /* Naukri_CryptoUITests.swift in Sources */,
+				09680DB52BA5B4EE00E9725D /* Naukri_CryptoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09680DA62BA5B4EE00E9725D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09680D932BA5B4ED00E9725D /* Naukri Crypto */;
+			targetProxy = 09680DA52BA5B4EE00E9725D /* PBXContainerItemProxy */;
+		};
+		09680DB02BA5B4EE00E9725D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09680D932BA5B4ED00E9725D /* Naukri Crypto */;
+			targetProxy = 09680DAF2BA5B4EE00E9725D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09680DB62BA5B4EE00E9725D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09680DB72BA5B4EE00E9725D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09680DB92BA5B4EE00E9725D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Naukri Crypto/Preview Content\"";
+				DEVELOPMENT_TEAM = GC375RV42S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-Crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09680DBA2BA5B4EE00E9725D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Naukri Crypto/Preview Content\"";
+				DEVELOPMENT_TEAM = GC375RV42S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-Crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09680DBC2BA5B4EE00E9725D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC375RV42S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-CryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naukri Crypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Naukri Crypto";
+			};
+			name = Debug;
+		};
+		09680DBD2BA5B4EE00E9725D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC375RV42S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-CryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naukri Crypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Naukri Crypto";
+			};
+			name = Release;
+		};
+		09680DBF2BA5B4EE00E9725D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC375RV42S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-CryptoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Naukri Crypto";
+			};
+			name = Debug;
+		};
+		09680DC02BA5B4EE00E9725D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC375RV42S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimohyusuph.Naukri-CryptoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Naukri Crypto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09680D8F2BA5B4ED00E9725D /* Build configuration list for PBXProject "Naukri Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09680DB62BA5B4EE00E9725D /* Debug */,
+				09680DB72BA5B4EE00E9725D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09680DB82BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09680DB92BA5B4EE00E9725D /* Debug */,
+				09680DBA2BA5B4EE00E9725D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09680DBB2BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri CryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09680DBC2BA5B4EE00E9725D /* Debug */,
+				09680DBD2BA5B4EE00E9725D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09680DBE2BA5B4EE00E9725D /* Build configuration list for PBXNativeTarget "Naukri CryptoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09680DBF2BA5B4EE00E9725D /* Debug */,
+				09680DC02BA5B4EE00E9725D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09680D8C2BA5B4ED00E9725D /* Project object */;
+}
